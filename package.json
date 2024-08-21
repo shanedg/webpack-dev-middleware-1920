@@ -1,0 +1,20 @@
+{
+  "name": "webpack-dev-middleware-1920",
+  "version": "1.0.0",
+  "description": "Minimal reproduction for webpack-dev-middleware#1920",
+  "scripts": {
+    "start": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "overrides": {
+    "webpack-dev-middleware": "7.3.0"
+  }
+}
